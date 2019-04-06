@@ -595,20 +595,20 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [x] Will not implement. Implementing with array is trivial.
 
 - ### Queue
-    - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
-    - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
-    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [x] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
+    - [x] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+    - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
-    - [ ] Implement using linked-list, with tail pointer:
+    - [x] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
         - dequeue() - returns value and removes least recently added element (front)
         - empty()
-    - [ ] Implement using fixed-sized array:
+    - [x] Implement using fixed-sized array:
         - enqueue(value) - adds item at end of available storage
         - dequeue() - returns value and removes least recently added element
         - empty()
         - full()
-    - [ ] Cost:
+    - [x] Cost:
         - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
             because you'd need the next to last element, causing a full traversal each dequeue
         - enqueue: O(1) (amortized, linked list and array [probing])
@@ -815,9 +815,9 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
     - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
-- [ ] Implement:
-    - [ ] Mergesort: O(n log n) average and worst case
-    - [ ] Quicksort O(n log n) average case
+- [x] Implement:
+    - [x] Mergesort: O(n log n) average and worst case
+    - [x] Quicksort O(n log n) average case
     - Selection sort and insertion sort are both O(n^2) average and worst case
     - For heapsort, see Heap data structure above.
 
@@ -1535,17 +1535,17 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
 
 - ### Unix command line tools
     - I filled in the list below from good tools.
-    - [ ] bash
-    - [ ] cat
-    - [ ] grep
+    - [x] bash
+    - [x] cat
+    - [x] grep
     - [ ] sed
     - [ ] awk
-    - [ ] curl or wget
+    - [x] curl or wget
     - [ ] sort
     - [ ] tr
     - [ ] uniq
     - [ ] [strace](https://en.wikipedia.org/wiki/Strace)
-    - [ ] [tcpdump](https://danielmiessler.com/study/tcpdump/)
+    - [x] [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
 - ### Information theory (videos)
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
@@ -1609,7 +1609,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
     - [ ] [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
 - ### Parallel Programming
-    - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
+    - [x] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
     - [ ] [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
 - ### Messaging, Serialization, and Queueing Systems
@@ -1619,18 +1619,18 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [Tutorials](https://developers.google.com/protocol-buffers/docs/tutorials)
     - [ ] [gRPC](http://www.grpc.io/)
         - [gRPC 101 for Java Developers (video)](https://www.youtube.com/watch?v=5tmPvSe7xXQ&list=PLcTqM9n_dieN0k1nSeN36Z_ppKnvMJoly&index=1)
-    - [ ] [Redis](http://redis.io/)
+    - [x] [Redis](http://redis.io/)
         - [Tutorial](http://try.redis.io/)
     - [ ] [Amazon SQS (queue)](https://aws.amazon.com/sqs/)
     - [ ] [Amazon SNS (pub-sub)](https://aws.amazon.com/sns/)
-    - [ ] [RabbitMQ](https://www.rabbitmq.com/)
+    - [x] [RabbitMQ](https://www.rabbitmq.com/)
         - [Get Started](https://www.rabbitmq.com/getstarted.html)
-    - [ ] [Celery](http://www.celeryproject.org/)
+    - [x] [Celery](http://www.celeryproject.org/)
         - [First Steps With Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
-    - [ ] [ZeroMQ](http://zeromq.org/)
+    - [x] [ZeroMQ](http://zeromq.org/)
         - [Intro - Read The Manual](http://zeromq.org/intro:read-the-manual)
     - [ ] [ActiveMQ](http://activemq.apache.org/)
-    - [ ] [Kafka](http://kafka.apache.org/documentation.html#introduction)
+    - [x] [Kafka](http://kafka.apache.org/documentation.html#introduction)
     - [ ] [MessagePack](http://msgpack.org/index.html)
     - [ ] [Avro](https://avro.apache.org/)
 
