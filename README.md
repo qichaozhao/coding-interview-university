@@ -759,8 +759,8 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [x] extract_max - returns the max item, removing it
         - [x] sift_down - needed for extract_max
         - [x] remove(i) - removes item at index x
-        - [ ] heapify - create a heap from an array of elements, needed for heap_sort
-        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
+        - [x] heapify - create a heap from an array of elements, needed for heap_sort
+        - [x] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
             - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
 
 ## Sorting
