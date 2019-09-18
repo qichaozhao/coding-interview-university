@@ -879,12 +879,10 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
 - I'll implement:
-    - [ ] DFS with adjacency list (recursive)
-    - [ ] DFS with adjacency list (iterative with stack)
-    - [ ] DFS with adjacency matrix (recursive)
-    - [ ] DFS with adjacency matrix (iterative with stack)
-    - [ ] BFS with adjacency list
-    - [ ] BFS with adjacency matrix
+    - [ ] DFS with adjacency map (recursive)
+    - [ ] DFS with adjacency map (iterative with stack)
+    - [ ] BFS with adjacency map
+    - [ ] BFS with adjacency map
     - [ ] single-source shortest path (Dijkstra)
     - [ ] minimum spanning tree
     - DFS-based algorithms (see Aduni videos above):
